@@ -104,7 +104,7 @@ const TableOne = () => {
           >
             <div className="flex items-center gap-3 p-2.5 xl:p-5">
               <div className="flex-shrink-0">
-                <Image src={brand.logo} alt="Brand" width={48} height={48} />
+                <Image src={brand.logo as string} alt="Brand" width={48} height={48} />
               </div>
               <p className="hidden text-black sm:block">
                 {brand.name}
